@@ -42,6 +42,12 @@ namespace FunctionalPrograms
                         int num3 = Convert.ToInt32(Console.ReadLine());
                         number.Harmonic(num3);
                         break;
+                    case 5:
+                        Factors fac = new Factors();
+                        Console.WriteLine("Enter the number: ");
+                        int num4 = Convert.ToInt32(Console.ReadLine());
+                        fac.Fact(num4);
+                        break;
                 }
             }
         }
