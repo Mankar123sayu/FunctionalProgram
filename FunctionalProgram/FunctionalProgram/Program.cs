@@ -1,4 +1,5 @@
-﻿using FunctionalPrograms;
+﻿using FunctionalProgram;
+using FunctionalPrograms;
 using System;
 
 namespace FunctionalPrograms
@@ -21,6 +22,12 @@ namespace FunctionalPrograms
                         Console.WriteLine("Enter num of flips: ");
                         int num = Convert.ToInt32(Console.ReadLine());
                         flip.Flip(num);
+                        break;
+                    case 2:
+                        LeapYear find = new LeapYear();
+                        Console.WriteLine("Enter the year: ");
+                        int num1 = Convert.ToInt32(Console.ReadLine());
+                        find.Leap(num1);
                         break;
                 }
             }
