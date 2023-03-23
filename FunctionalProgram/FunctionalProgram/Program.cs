@@ -36,6 +36,12 @@ namespace FunctionalPrograms
                         int num2 = Convert.ToInt32(Console.ReadLine());
                         power.Display(num2);
                         break;
+                    case 4:
+                        HarmonicNumber number = new HarmonicNumber();
+                        Console.WriteLine("Enter the number: ");
+                        int num3 = Convert.ToInt32(Console.ReadLine());
+                        number.Harmonic(num3);
+                        break;
                 }
             }
         }
