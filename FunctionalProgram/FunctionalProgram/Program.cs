@@ -29,6 +29,13 @@ namespace FunctionalPrograms
                         int num1 = Convert.ToInt32(Console.ReadLine());
                         find.Leap(num1);
                         break;
+                    
+                    case 3:
+                        PowerOf2 power = new PowerOf2();
+                        Console.WriteLine("Enter the degree of power: ");
+                        int num2 = Convert.ToInt32(Console.ReadLine());
+                        power.Display(num2);
+                        break;
                 }
             }
         }
